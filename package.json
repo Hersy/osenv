@@ -1,6 +1,6 @@
 {
   "name": "@hersy/osenv",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Look up environment settings specific to different operating systems",
   "keywords": [
     "environment",
@@ -39,9 +39,9 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-    "build": "npx tsc -p .",
+    "build": "npx tsc",
     "type-check": "npx tsc --noEmit",
-    "watch": "npx tsc -p . --watch",
+    "watch": "npx tsc --watch",
     "test": "npx tap run --allow-incomplete-coverage tests/*.js",
     "lint": "hplint --lint",
     "lint-fix": "hplint --fix",
